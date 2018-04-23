@@ -41,7 +41,7 @@ class SearchPanel extends HTMLElement {
         this.render`
         <ul class="search-results">
         </ul>
-        <input type="text" value=${this.content} onkeydown=${this}>
+        <input type="text" placeholder="Search or enter address..." value=${this.content} onkeydown=${this}>
         `;
     }
 

@@ -154,7 +154,7 @@ class NavBar extends HTMLElement {
         if (this.frame_state.loading) {
             loading += " fa-spin";
         }
-        
+
         this.render`
     <div class="nav-left">
         <i class="notifs fas fa-bell"></i>

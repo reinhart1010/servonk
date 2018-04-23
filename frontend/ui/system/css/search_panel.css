@@ -19,6 +19,11 @@ search-panel ul {
 }
 
 search-panel input {
+    font-family: "fira sans", sans-serif;
+    /* Ensuring that Fira Sans is always used in the input field */
     margin: 1em;
     width: calc(100% - 2em);
+    height: 2em;
+    border-radius: 1em;
+    opacity: 0.75;
 }
