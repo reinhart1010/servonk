@@ -5,7 +5,7 @@ search-panel {
     right: 0%;
     transform: translateY(100%);
 
-    background-color: rgba(127, 127, 127, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 36px;
 }
 
@@ -23,7 +23,10 @@ search-panel input {
     /* Ensuring that Fira Sans is always used in the input field */
     margin: 1em;
     width: calc(100% - 2em);
-    height: 2em;
-    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid gray;
+    color: white;
+    height: 48px;
+    border-radius: 24px;
     opacity: 0.75;
 }
